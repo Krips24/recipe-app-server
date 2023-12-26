@@ -1,0 +1,44 @@
+<%- include('partials/signupHeader') %>
+
+<img class="logo-image-signup" src="/css/signup/images/logo-image.png" alt="Organic.in logo">
+
+<img class="signup-image" src="/css/signup/images/signup-image.svg" alt="Organic.in signup image">
+
+<div class="signup-container">
+    <h2 class="title">Sign Up</h2>
+        <form class="signup-form" action="/signup" method="post" name="signup">
+
+            <div class="input-field-1">
+                <i class="fa fa-heart"></i>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+
+            <div class="input-field-2">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+
+            <div class="input-field-2">
+                <i class="fa fa-lock"></i>
+                <input type="password" name="password" placeholder="Password" id="password">
+            </div>
+
+            <button  class="signup-button" type="submit">sign up</button>
+        </form>
+</div>
+
+<div class="already-user">
+    <h3>Already a user?</h3>
+        <p>
+           Log in to your account by entering your registered email and password
+        </p>
+        <p>
+            to access your profile and personalized content.
+        </p>
+            
+    <form method="get" action="/login">
+        <button>
+            Login
+        </button>
+    </form> 
+</div>

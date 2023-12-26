@@ -1,0 +1,23 @@
+{
+  "name": "organic",
+  "version": "1.0.0",
+  "description": "recipe generating app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krips24/Organic.in.git"
+  },
+  "author": "krapansh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krips24/Organic.in/issues"
+  },
+  "homepage": "https://github.com/Krips24/Organic.in#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
