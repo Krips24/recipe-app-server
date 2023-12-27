@@ -53,6 +53,10 @@ app.get("/signup", (req, res) => {
   res.render("signup");
 });
 
+app.get("/home", (req,res) => {
+  res.render("home");
+})
+
 // Define route for handling POST requests
 
 // Signup form submission, adds a new user to the database
