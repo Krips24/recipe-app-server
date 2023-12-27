@@ -97,7 +97,7 @@ input {
     cursor: pointer;
     transition: 0.5s;
     position: absolute;
-    left: 25%;
+    left: 23%;
   }
   
   .signup-button:hover {
@@ -142,16 +142,26 @@ input {
   ;
 }
 
+.heart{
+  width: 4.5%;
+  position: absolute;
+  top: 35%;
+  right: 93%;
+  color: #acacac;
+}
+
 .envelope {
-  position: relative;
-  top: 37%;
-  right: 50%;
+  width: 4.5%;
+  position: absolute;
+  top: 35%;
+  right: 93%;
   color: #acacac;
 }
 
 .lock {
-  position: relative;
-  top: 37%;
-  right: 50%;
+  width: 3.7%;
+  position: absolute;
+  top: 35%;
+  right: 93%;
   color: #acacac;
 }

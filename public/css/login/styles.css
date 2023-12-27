@@ -69,7 +69,7 @@ input {
 .input-field-2 input {
   width: calc(100% - 30px); /* Adjust the padding to accommodate the icon */
   padding: 10px;
-  padding-left: 30px; /* Adjust the padding to accommodate the icon */
+  padding-left: 35px; /* Adjust the padding to accommodate the icon */
   background-color: #f0f0f0;
   border: none;
   border-radius: 20px; /* Rounded input boxes */
@@ -82,6 +82,7 @@ input {
 .input-field-1 input::placeholder,
 .input-field-2 input::placeholder {
   color: #acacac; /* Set placeholder text color */
+  font-size: 0.99rem;
 }
 
 .login-button {
@@ -146,16 +147,18 @@ input {
   background-color: #dfff00;
 }
 
-.fa-envelope {
+.envelope {
+  width: 4.5%;
   position: absolute;
-  top: 48.5%;
-  left: 5%;
+  top: 32%;
+  left: 3%;
   color: #acacac;
 }
 
-.fa-lock {
+.lock {
+  width: 4%;
   position: absolute;
-  top: 57.5%;
-  left: 5%;
+  top: 32%;
+  left: 3.4%;
   color: #acacac;
 }

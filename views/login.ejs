@@ -1,39 +1,51 @@
 <%- include('partials/loginHeader') %>
 
-<img class="logo-image-login" src="/css/login/images/logo-image.png" alt="Organic.in logo">
+<img
+  class="logo-image-login"
+  src="/css/login/images/logo-image.png"
+  alt="Organic.in logo"
+/>
 
-<img class="login-image" src="/css/login/images/login-image.svg" alt="Organic.in login image">
+<img
+  class="login-image"
+  src="/css/login/images/login-image.svg"
+  alt="Organic.in login image"
+/>
 
 <div class="login-container">
-    <h2 class="title">Sign in</h2>
-        <form class="login-form" action="/login" method="post" name="login">
+  <h2 class="title">Sign in</h2>
+  <form
+    class="login-form"
+    action="/login"
+    method="post"
+    name="login"
+    id="login"
+  >
+    <div class="input-field-1">
+      <i class="fa fa-envelope"></i>
+      <input type="email" name="email" placeholder="Email" />
+    </div>
 
-            <div class="input-field-1">
-                <i class="fa fa-envelope"></i>
-                <input type="email" name="email" placeholder="Email">
-            </div>
+    <div class="input-field-2">
+      <i class="fa fa-lock"></i>
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        id="password"
+      />
+    </div>
 
-            <div class="input-field-2">
-                <i class="fa fa-lock"></i>
-                <input type="password" name="password" placeholder="Password" id="password">
-            </div>
-
-            <button  class="login-button" type="submit">Login</button>
-        </form>
+    <button class="login-button" type="submit">Login</button>
+  </form>
 </div>
 
 <div class="new-here">
-    <h3>New Here?</h3>
-        <p>
-            Create your account by filling out the form with your email and
-        </p>
-        <p>
-            secure password to unlock all the features of our website.
-        </p>
-            
-    <form method="get" action="/signup">
-        <button>
-            Sign Up
-        </button>
-    </form> 
+  <h3>New Here?</h3>
+  <p>Create your account by filling out the form with your email and</p>
+  <p>secure password to unlock all the features of our website.</p>
+
+  <form method="get" action="/signup">
+    <button>Sign Up</button>
+  </form>
 </div>
