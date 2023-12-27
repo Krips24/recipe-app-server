@@ -14,8 +14,8 @@ input {
 .logo-image-signup {
   width: 26%;
   position: absolute;
-  bottom: 64%;
-  right: 78%;
+  bottom: 62%;
+  right: 76%;
 }
 
 .signup-image {
@@ -67,11 +67,11 @@ input {
   .input-field-1 input,
   .input-field-2 input {
     width: calc(100% - 30px); /* Adjust the padding to accommodate the icon */
-    padding: 10px;
+    padding: 14px;
     padding-left: 30px; /* Adjust the padding to accommodate the icon */
     background-color: #f0f0f0;
     border: none;
-    border-radius: 20px; /* Rounded input boxes */
+    border-radius: 100px; /* Rounded input boxes */
     margin-top: 3px;
     margin-bottom: 3px;
     box-sizing: border-box;
@@ -81,6 +81,9 @@ input {
   .input-field-1 input::placeholder,
   .input-field-2 input::placeholder {
     color: #acacac; /* Set placeholder text color */
+    font-size: 0.99rem;
+    padding-left: 5px;
+
   }
   
   .signup-button {
@@ -146,7 +149,7 @@ input {
   width: 4.5%;
   position: absolute;
   top: 35%;
-  right: 93%;
+  right: 92%;
   color: #acacac;
 }
 
@@ -154,7 +157,7 @@ input {
   width: 4.5%;
   position: absolute;
   top: 35%;
-  right: 93%;
+  right: 92%;
   color: #acacac;
 }
 
@@ -162,6 +165,6 @@ input {
   width: 3.7%;
   position: absolute;
   top: 35%;
-  right: 93%;
+  right: 92%;
   color: #acacac;
 }

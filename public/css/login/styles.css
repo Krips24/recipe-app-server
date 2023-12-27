@@ -68,11 +68,11 @@ input {
 .input-field-1 input,
 .input-field-2 input {
   width: calc(100% - 30px); /* Adjust the padding to accommodate the icon */
-  padding: 10px;
+  padding: 14px;
   padding-left: 35px; /* Adjust the padding to accommodate the icon */
   background-color: #f0f0f0;
   border: none;
-  border-radius: 20px; /* Rounded input boxes */
+  border-radius: 100px; /* Rounded input boxes */
   margin-top: 3px;
   margin-bottom: 3px;
   box-sizing: border-box;
@@ -83,6 +83,8 @@ input {
 .input-field-2 input::placeholder {
   color: #acacac; /* Set placeholder text color */
   font-size: 0.99rem;
+  padding-left: 5px;
+
 }
 
 .login-button {
@@ -151,7 +153,7 @@ input {
   width: 4.5%;
   position: absolute;
   top: 32%;
-  left: 3%;
+  left: 4%;
   color: #acacac;
 }
 
@@ -159,6 +161,6 @@ input {
   width: 4%;
   position: absolute;
   top: 32%;
-  left: 3.4%;
+  left: 4%;
   color: #acacac;
 }
